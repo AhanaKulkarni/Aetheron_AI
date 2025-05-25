@@ -174,9 +174,10 @@ export default function Projects() {
                 Join our marketplace and bring your revolutionary ideas to life with our expert team and cutting-edge technology.
               </p>
               <Link href="/contact" className="cursor-hover">
-                <Button className="electric-blue-bg hover:bg-[hsl(var(--electric-blue-light))] hover:text-white text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 glow-effect">
-                  Connect with  us
+                <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary h-10 steel-accent-bg hover:bg-[hsl(var(--steel-blue-light))] text-black px-8 py-3 rounded-xl font-normal text-base transition-all duration-300 subtle-glow">
+                  Connect with us!
                 </Button>
+                
               </Link>
             </div>
           </motion.div>
