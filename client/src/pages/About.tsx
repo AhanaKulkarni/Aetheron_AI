@@ -185,6 +185,7 @@ export default function About() {
                   </Button>
                 </Link>
               </div>
+              </div>
             </div>
           </motion.div>
         </div>
