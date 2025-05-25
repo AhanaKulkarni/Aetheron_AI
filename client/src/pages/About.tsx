@@ -30,22 +30,16 @@ export default function About() {
 
   const team = [
     {
+      initials: "AP",
+      name: "Ayush Pardeshi",
+      role: "CEO-Director-Founder",
+      description: "Former CEO of Aetheron, the visionary behind everything."
+    },
+    {
       initials: "AK",
-      name: "Alex Kim",
-      role: "CEO & Co-Founder",
-      description: "Former Tesla AI Lead, MIT PhD in Machine Learning. Visionary behind our breakthrough neural architectures."
-    },
-    {
-      initials: "SC",
-      name: "Sarah Chen",
-      role: "CTO & Co-Founder",
-      description: "Ex-Google Research, Stanford CS. Pioneer in quantum-classical hybrid computing and AR/VR systems."
-    },
-    {
-      initials: "MR",
-      name: "Marcus Rodriguez",
-      role: "Chief Design Officer",
-      description: "Former Apple Design Team, IDEO veteran. Master of human-centered design and luxury tech experiences."
+      name: "Ahana Kulkarni",
+      role: "CTO & Director",
+      description: "Former CTO of Aetheron - Ideated by CEO, built by her."
     }
   ];
 
