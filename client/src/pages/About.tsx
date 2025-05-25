@@ -30,16 +30,22 @@ export default function About() {
 
   const team = [
     {
-      initials: "AP",
-      name: "Ayush Pardeshi",
-      role: "CEO-Director-Founder",
-      description: "Former CEO of Aetheron, the visionary behind everything."
+      initials: "AK",
+      name: "Alex Kim",
+      role: "CEO & Co-Founder",
+      description: "Former Tesla AI Lead, MIT PhD in Machine Learning. Visionary behind our breakthrough neural architectures."
     },
     {
-      initials: "AK",
-      name: "Ahana Kulkarni",
-      role: "CTO & Director",
-      description: "Former CTO of Aetheron - Ideated by CEO, built by her."
+      initials: "SC",
+      name: "Sarah Chen",
+      role: "CTO & Co-Founder",
+      description: "Ex-Google Research, Stanford CS. Pioneer in quantum-classical hybrid computing and AR/VR systems."
+    },
+    {
+      initials: "MR",
+      name: "Marcus Rodriguez",
+      role: "Chief Design Officer",
+      description: "Former Apple Design Team, IDEO veteran. Master of human-centered design and luxury tech experiences."
     }
   ];
 
@@ -76,12 +82,13 @@ export default function About() {
               </h2>
               <div className="space-y-6 text-lg text-gray-300">
                 <p>
-                  Founded in 2024 by our visionary CEO, Mr. Ayush Pardeshi, Aetheron.AI emerged from a simple 
-                  yet powerful belief: artificial intelligence will solve everything to make life easier, not replace it.
+                  Founded in 2024 by a team of visionary engineers and designers, Aetheron.AI emerged from a simple 
+                  yet powerful belief: artificial intelligence should amplify human creativity, not replace it.
                 </p>
                 <p>
-                  Our journey began from the third semester of engineering college, where we witnessed firsthand the transformative 
-                  power of AI when combined with human ingenuity. Today, we're a team of dedicated tech-geeks and close friends who work on the talents, 
+                  Our journey began in a small lab in San Francisco, where we witnessed firsthand the transformative 
+                  power of AI when combined with human ingenuity. Today, we're a global force driving innovation 
+                  across industries.
                 </p>
                 <p>
                   Every project we undertake is guided by our core principle: technology should solve real problems 
@@ -175,16 +182,15 @@ export default function About() {
               </p>
               <div className="flex flex-col md:flex-row gap-6 justify-center">
                 <Link href="/projects" className="cursor-hover">
-                  <Button className="steel-accent-bg hover:bg-[hsl(var(--steel-blue-light))] text-black px-8 py-3 rounded-xl font-normal text-base transition-all duration-300 subtle-glow">
-                    View our work
+                  <Button className="electric-blue-bg hover:bg-[hsl(var(--electric-blue-light))] text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 glow-effect">
+                    See Our Work
                   </Button>
                 </Link>
                 <Link href="/contact" className="cursor-hover">
-                  <Button className="steel-accent-bg hover:bg-[hsl(var(--steel-blue-light))] text-black px-8 py-3 rounded-xl font-normal text-base transition-all duration-300 subtle-glow">
-                    Join us!
+                  <Button variant="outline" className="border-[hsl(var(--electric-blue))] text-[hsl(var(--electric-blue))] hover:bg-[hsl(var(--electric-blue))] hover:text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
+                    Join US!
                   </Button>
                 </Link>
-              </div>
               </div>
             </div>
           </motion.div>
