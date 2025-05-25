@@ -175,15 +175,16 @@ export default function About() {
                 to solve their most pressing challenges through the power of artificial intelligence and innovative design."
               </p>
               <div className="flex flex-col md:flex-row gap-6 justify-center">
-                <Link href="/projects" className="cursor-hover">
-                  <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary h-10 steel-accent-bg hover:bg-[hsl(var(--steel-blue-light))] text-black px-8 py-3 rounded-xl font-normal text-base transition-all duration-300 subtle-glow">
-                    See Our Work
-                  </Button>
-                </Link>
-                <Link href="/contact" className="cursor-hover">
-                  <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary h-10 steel-accent-bg hover:bg-[hsl(var(--steel-blue-light))] text-black px-8 py-3 rounded-xl font-normal text-base transition-all duration-300 subtle-glow">
-                    Join us!
-                  </Button>
+              <Link href="/projects" className="cursor-hover">
+                <Button className="steel-accent-bg hover:bg-[hsl(var(--steel-blue-light))] text-black px-8 py-3 rounded-xl font-normal text-base transition-all duration-300 subtle-glow">
+                  View our work
+                </Button>
+              </Link>
+              <Link href="/contact" className="cursor-hover">
+                <Button className="steel-accent-bg hover:bg-[hsl(var(--steel-blue-light))] text-black px-8 py-3 rounded-xl font-normal text-base transition-all duration-300 subtle-glow">
+                  Join us!
+                </Button>
+              </Link>
                 </Link>
               </div>
             </div>
