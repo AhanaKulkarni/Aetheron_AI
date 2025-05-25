@@ -174,8 +174,8 @@ export default function Projects() {
                 Join our marketplace and bring your revolutionary ideas to life with our expert team and cutting-edge technology.
               </p>
               <Link href="/contact" className="cursor-hover">
-                <Button className="electric-blue-bg hover:bg-[hsl(var(--electric-blue-light))] text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 glow-effect">
-                  Submit Your Project
+                <Button className="electric-blue-bg hover:bg-[hsl(var(--electric-blue-light))] hover:text-white text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 glow-effect">
+                  Connect with  us
                 </Button>
               </Link>
             </div>
